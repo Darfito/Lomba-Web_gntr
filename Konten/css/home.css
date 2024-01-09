@@ -37,8 +37,8 @@ body {
 }
 
 
-#kanan{
-    margin-left:190px;
+#kanan {
+    margin-left: 190px;
 }
 
 
@@ -123,10 +123,11 @@ body {
 
 .heroSection {
     display: flex;
-    margin-bottom: 10%;
+    margin-bottom: 217px;
     /* border: #000 1px solid; */
     margin-top: 56px;
     margin-left: 80px;
+
 }
 
 .heroText {
@@ -189,5 +190,74 @@ body {
 .heroImg img {
     width: 750px;
     height: 613px;
+    flex-shrink: 0;
+}
+
+button {
+    width: 100px;
+    height: 43px;
+    flex-shrink: 0;
+    border-radius: 39px;
+    background: #775FFF;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#search {
+    border-radius: 39px;
+    border: 3px solid #D3D3D3;
+    width: 362px;
+    height: 43px;
+    flex-shrink: 0;
+}
+
+.menu_utama {
+    margin-bottom: 202px;
+    /* border: #000 1px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu_utamaTitle {
+    border: #000 1px solid;
+    width: 750px;
+    height: 65px;
+    flex-shrink: 0;
+    border-radius: 63px;
+    background: #000;
+    margin-bottom: 51px;
+}
+
+.menu_utamaTitle p {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+
+.isi_menu_detail {
+    margin-right: 35px;
+}
+
+.isi_menu_detail1 {
+    margin-right: 35px;
+    margin-left: 37px;
+}
+
+.salatTime {
+    margin-bottom: 10%;
+}
+
+.img_salatTime img {
+    width: 872.904px;
+    height: 542px;
     flex-shrink: 0;
 }
