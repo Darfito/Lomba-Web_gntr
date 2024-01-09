@@ -1,7 +1,9 @@
-body{
+body {
     /* background-color: black; */
     height: 100%;
+    width: 100%;
 }
+
 .nav-link {
     color: #000;
     font-family: Montserrat;
@@ -34,9 +36,10 @@ body{
     line-height: normal;
 }
 
-/* .kanan{
-    margin-left:200px;
-} */
+
+#kanan{
+    margin-left:190px;
+}
 
 
 .footer {
@@ -110,4 +113,81 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+
+
+
+
+
+
+.heroSection {
+    display: flex;
+    margin-bottom: 10%;
+    /* border: #000 1px solid; */
+    margin-top: 56px;
+    margin-left: 80px;
+}
+
+.heroText {
+    /* justify-content: center; */
+    width: 620px;
+    height: 240px;
+    margin-right: 12px;
+    margin-top: 177px;
+    /* display: flex; */
+    /* width: fit-content; */
+}
+
+.hero_info {
+    width: 700px;
+    margin-top: 21px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.hero_title {
+    color: #000;
+    /* border: #000 1px solid; */
+    /* text-align: center; */
+
+    font-family: Montserrat;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.halalFood {
+    display: inline-block;
+    border: #000 1px solid;
+    width: 280px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 81px;
+    background: #DBF253;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 33px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    /* margin-bottom: 50px; */
+}
+
+/* 
+.halalFood p {
+} */
+
+
+.heroImg img {
+    width: 750px;
+    height: 613px;
+    flex-shrink: 0;
 }
