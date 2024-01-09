@@ -1,0 +1,72 @@
+.footer {
+    background-color: black;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logoFooter {
+    margin-top: 37px;
+    margin-bottom: 16px;
+}
+
+.footerText {
+    max-width: 800px;
+    width: 100%;
+}
+
+.footerText p {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    margin: 0;
+    /* Remove default margin for the paragraph */
+    text-align: center;
+}
+
+.sosmed {
+    margin-top: 38px;
+}
+
+.fa-brands {
+    color: #FFF;
+    text-align: center;
+    font-family: Font Awesome 6 Brands;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 22px;
+}
+
+.copyright {
+    display: flex;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.fa-copyright {
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
