@@ -1,0 +1,162 @@
+body {
+  /* background-color: black; */
+  height: 100%;
+}
+.nav-link {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.navbar {
+  margin: 20px 52px 0px 51px;
+  /* border: #000 1px solid; */
+}
+
+.regist {
+  border: #775eff 1px solid;
+  border-radius: 30px;
+  background: #775eff;
+}
+
+.regist a {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+/* .kanan{
+    margin-left:200px;
+} */
+
+.footer {
+  background-color: black;
+  text-align: center;
+  /* position: fixed;
+    left: 0;
+    bottom: 0; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logoFooter {
+  margin-top: 37px;
+  margin-bottom: 16px;
+}
+
+.footerText {
+  max-width: 800px;
+  width: 100%;
+}
+
+.footerText p {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  margin: 0;
+  /* Remove default margin for the paragraph */
+  text-align: center;
+}
+
+.sosmed {
+  margin-top: 38px;
+}
+
+.fa-brands {
+  color: #fff;
+  text-align: center;
+  font-family: Font Awesome 6 Brands;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 22px;
+}
+
+.copyright {
+  display: flex;
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+.fa-copyright {
+  margin-left: 8px;
+  margin-right: 8px;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.konten {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 1000px;
+  border: 1px solid black;
+}
+.konten-head {
+  display: flex;
+  width: 100%;
+  min-height: 400px;
+  border: 1px solid red;
+}
+
+.left-konten {
+  display: flex;
+  width: 40%;
+  min-height: 400px;
+  border: 1px solid blue;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: flex-end;
+}
+.mosque {
+  max-height: 500px;
+}
+.right-konten {
+  display: flex;
+  width: 60%;
+  min-height: 400px;
+  border: 1px solid green;
+}
+
+.title h1{
+    font-size: 4.063rem;
+    border: 1px solid salmon;
+}
+.maps{
+    width: 100%;
+    min-height: 450px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 0 1rem;
+}
+
+iframe{
+    width: 100%;
+    min-height: 450px;
+}
