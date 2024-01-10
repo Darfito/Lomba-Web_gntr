@@ -45,9 +45,9 @@ body {
 .footer {
     background-color: black;
     text-align: center;
-    /* position: fixed;
-    left: 0;
-    bottom: 0; */
+    /* position: fixed; */
+    /* left: 0; */
+    /* bottom: 0; */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -225,6 +225,7 @@ button {
 
 .menu_utamaTitle {
     border: #000 1px solid;
+    /* padding-top: 100px; */
     width: 750px;
     height: 65px;
     flex-shrink: 0;
@@ -245,19 +246,303 @@ button {
 
 .isi_menu_detail {
     margin-right: 35px;
+    transition: transform .5s;
+}
+
+.isi_menu_detail:hover {
+    transform: scale(1.3);
 }
 
 .isi_menu_detail1 {
     margin-right: 35px;
     margin-left: 37px;
+    transition: transform .5s;
+
+}
+
+
+.isi_menu_detail1:hover {
+    transform: scale(1.3);
 }
 
 .salatTime {
-    margin-bottom: 10%;
+    margin-bottom: 174px;
+    display: flex;
+    /* border: #000 1px solid; */
+
 }
 
 .img_salatTime img {
-    width: 872.904px;
-    height: 542px;
+    width: 862.904px;
+    height: 532px;
     flex-shrink: 0;
 }
+
+.img_salatTime {
+    margin-left: 40px;
+}
+
+.waktuSholat {
+    /* border: #000 1px solid; */
+    margin-left: 65px;
+}
+
+
+.waktuSholatTitle {
+    /* background-image: url(/component/image/Ellipse\ 33.png); */
+    color: #000;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 61px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    /* margin-left: 50px; */
+
+}
+
+.waktuSholat p {
+    color: #000;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    width: 434px;
+}
+
+.fa-globe {
+    width: 29.529px;
+    height: 29.48px;
+    flex-shrink: 0;
+    margin-left: 28px;
+    margin-right: 45px;
+}
+
+.world {
+    display: flex;
+    border-radius: 79.5px;
+    border: 1px solid #000;
+    background: #FFF;
+    width: 201px;
+    height: 29px;
+    flex-shrink: 0;
+    margin-left: 230px;
+}
+
+.country {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    width: 114px;
+    height: 22px;
+    flex-shrink: 0;
+    margin-left: 5px;
+}
+
+.globe {
+    border-right: #000 1px solid;
+    border-radius: 79.5px 0 0 79.5px;
+    width: 70px;
+}
+
+
+.main_waktuSholat {
+    margin-top: 35px;
+    /* margin-left: 40px; */
+}
+
+.atas {
+    display: flex;
+    /* border: #000 1px solid; */
+    margin-bottom: 4px;
+}
+
+.tengah {
+    display: flex;
+    /* border: #000 1px solid; */
+    margin-bottom: 4px;
+
+}
+
+.bawah {
+    display: flex;
+    /* border: #000 1px solid; */
+    margin-bottom: 4px;
+
+}
+
+.atas_inside {
+    /* border: #000 1px solid; */
+    width: 215px;
+    height: 58px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 59.5px 0px 0px 0px;
+    background: #DBF253;
+}
+
+.tengah_inside {
+    /* border: #000 1px solid; */
+    width: 215px;
+    height: 58px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: #DBF253;
+
+}
+
+
+.bawah_inside {
+    /* border: #000 1px solid; */
+    width: 215px;
+    height: 58px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 0px 0px 0px 59.5px;
+    background: #DBF253;
+}
+
+.atas_waktu {
+    /* border: #000 1px solid; */
+    color: #FFF;
+    /* text-align: right; */
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 220px;
+    height: 58px;
+    flex-shrink: 0;
+    background: linear-gradient(90deg, #775FFF 50.15%, rgba(118, 94, 255, 0.00) 93.99%);
+    padding-left: 20px;
+}
+
+.tengah_waktu {
+    /* border: #000 1px solid; */
+    width: 220px;
+    height: 58px;
+    flex-shrink: 0;
+    color: #FFF;
+    /* text-align: right; */
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    background: linear-gradient(90deg, #775FFF 50.15%, rgba(118, 94, 255, 0.00) 93.99%);
+    line-height: normal;
+    padding-left: 20px;
+
+}
+
+.bawah_waktu {
+    /* border: #000 1px solid; */
+    width: 220px;
+    height: 58px;
+    flex-shrink: 0;
+    color: #FFF;
+    /* text-align: right; */
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: linear-gradient(90deg, #775FFF 50.15%, rgba(118, 94, 255, 0.00) 93.99%);
+    padding-left: 20px;
+
+}
+
+
+
+.travelNews {
+    margin-left: 72px;
+    /* display: flex; */
+    /* align-items: center; */
+    width: 1345px;
+    height: 872px;
+    flex-shrink: 0;
+    border-radius: 68px;
+    border: 3px solid #B7B7B7;
+    margin-bottom: 10%;
+}
+
+.title_travelNews {
+    /* border: #000 1px solid; */
+    margin-left: 74px;
+    margin-top: 40px;
+    padding-left: 50px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 66px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    width: fit-content;
+    line-height: normal;
+    border-radius: 64px;
+    background: #DBF253;
+}
+
+.main_travelNews{
+    display: flex;
+    flex-direction: column;
+}
+
+.main_travelNews img{
+   
+    width: 345px;
+    height: 239px;
+    flex-shrink: 0;
+}
+
+
+
+.content_main_travelNews1 {
+    margin-left: 74px;
+    margin-top: 23px;
+    /* border: #000 1px solid; */
+}
+
+
+.content_main_travelNews{
+    margin-top: 23px;
+    margin-left: 56px;
+}
+
+.row1_main_travelNews {
+    display: flex;
+    flex-direction: row;
+}
+
+.row2_main_travelNews {
+    margin-top: 57px;
+    display: flex;
+    flex-direction: row;
+}
+
