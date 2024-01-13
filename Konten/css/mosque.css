@@ -111,6 +111,7 @@ body {
 }
 
 .konten {
+  margin-top: 3rem;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -168,10 +169,35 @@ iframe {
   display: flex;
   width: 100%;
   min-height: 400px;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.box-note {
+  display: flex;
+  margin-top: 36px;
+  /* border: 1px solid black; */
+  /* min-width: 0px;
+  max-width: 200px; */
+  width: 275px;
+  /* min-height: 50px;
+  max-width: 300px; */
+  height: 300px;
+  background-image: url(../asset/Group175.png);
+  background-repeat: no-repeat;
+  padding: 10px;
+}
+
+.box-text {
+  width: 100%;
+  height: 100%;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 .list-item {
@@ -197,9 +223,10 @@ iframe {
   transition: border 0.3s ease;
 }
 
-.item-maps:hover {
+.item-maps.main:hover {
   transition: 0.5ms;
   border: 3px solid #765eff;
+  box-shadow: 0 0 5px 5px rgba(118, 94, 255, 0.5);
 }
 
 .item-maps .left {
@@ -208,16 +235,15 @@ iframe {
   flex-direction: column;
   border-right: 3px solid #d3d3d3 !important;
   border-radius: 0;
-  border: none ;
+  border: none;
   justify-content: center;
   transition: border-right 0.3s ease;
 }
 
-.item-maps .left:hover {
+/* .item-maps .left:hover {
    transition: 0.5ms;
-  border-right: 3px solid #765eff !important;
-}
-
+   border-right: 3px solid #765eff !important;
+} */
 
 .item-maps .left h4 {
   padding-left: 5px;
@@ -230,14 +256,11 @@ iframe {
   transition: border-bottom 0.3s ease; /* Animasi perubahan warna selama 0.3 detik dengan fungsi timing ease */
 }
 
-.item-maps .left h4:hover {
+/* .item-maps .left h4:hover {
   transition: 0.5ms;
   border-bottom: 3px solid #765eff !important;
   border-right: 0 !important;
-
-}
-
-
+} */
 
 .item-maps .left.desc {
   width: 100%;
@@ -246,7 +269,7 @@ iframe {
   border-right: 0 !important;
   /* border: none; */
 }
-.item-maps .left.desc:hover{
+.item-maps .left.desc:hover {
   /* border-top: 3px solid #765eff !important; */
 }
 
@@ -274,7 +297,7 @@ iframe {
   /* border: none; */
 }
 
-.pagination{
+.pagination {
   display: flex;
   align-items: center;
   background: #fff;
@@ -286,7 +309,7 @@ iframe {
   /* border: 1px solid black; */
 }
 
-.pagination ul{
+.pagination ul {
   list-style-type: none;
   display: flex;
   margin: 20px 30px;
@@ -314,13 +337,14 @@ iframe {
   cursor: pointer;
 }
 
-.pagination ul li.active{
+.pagination ul li.active {
   color: #fff;
-  background-image: linear-gradient(#765eff,#765eff);
+  background-image: linear-gradient(#765eff, #765eff);
   background-repeat: no-repeat;
 }
 
-.btn1, .btn2 {
+.btn1,
+.btn2 {
   padding: 0.7rem 1rem;
   display: inline-flex;
   align-items: center;
@@ -334,11 +358,11 @@ iframe {
   transition: background 0.3s ease, color 0.5s ease; /* Animasi perubahan warna selama 0.5 detik dengan fungsi timing ease */
 }
 
-.btn1:hover, .btn2:hover {
+.btn1:hover,
+.btn2:hover {
   color: #fff;
   background: #765eff;
 }
-
 
 /* .btn1:hover, .btn2:hover {
   color: red;
@@ -347,4 +371,3 @@ iframe {
 .btn1:hover ~ .btn2, .btn2:hover ~ .btn1 {
   color: red;
 } */
-
