@@ -48,7 +48,7 @@ body {
     /* position: fixed; */
     /* left: 0; */
     /* bottom: 0; */
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -166,7 +166,7 @@ body {
 
 .halalFood {
     display: inline-block;
-    border: #000 1px solid;
+    /* border: #000 1px solid; */
     width: 280px;
     height: 50px;
     flex-shrink: 0;
@@ -509,17 +509,19 @@ button {
     background: #DBF253;
 }
 
-.main_travelNews{
+.main_travelNews {
     display: flex;
     flex-direction: column;
 }
 
-.main_travelNews img{
-   
+.main_travelNews img {
+
     width: 345px;
     height: 239px;
     flex-shrink: 0;
+    /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)); */
 }
+
 
 
 
@@ -530,7 +532,7 @@ button {
 }
 
 
-.content_main_travelNews{
+.content_main_travelNews {
     margin-top: 23px;
     margin-left: 56px;
 }
@@ -546,3 +548,33 @@ button {
     flex-direction: row;
 }
 
+.card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    /* padding: 0; */
+}
+
+/* .outer-img{
+    width: 345px;
+    height: 239px;
+    background: linear-gradient(0deg, #000 41.82%, rgba(0, 0, 0, 0.00) 99.93%);
+    border: #ff0000 1px solid;
+} */
+
+/* .outer-card-text {
+    width: 345px;
+    border-radius: 0px 0px 5px 5px;
+    background: linear-gradient(0deg, #000 41.82%, rgba(0, 0, 0, 0.00) 99.93%);
+
+} */
+
+/* .card-text{
+    text-align: center;
+} */
+
+
+.gradient {
+    background-color: #000;
+}

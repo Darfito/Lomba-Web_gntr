@@ -1,0 +1,240 @@
+body {
+    /* background-color: black; */
+    height: 100%;
+    width: 100%;
+}
+
+
+.nav-link {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar {
+    margin: 20px 52px 0px 51px;
+    /* border: #000 1px solid; */
+}
+
+
+.regist {
+    border: #775EFF 1px solid;
+    border-radius: 30px;
+    background: #775EFF;
+}
+
+.regist a {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+#kanan {
+    margin-left: 190px;
+}
+
+
+.footer {
+    background-color: black;
+    text-align: center;
+    /* position: fixed; */
+    /* left: 0; */
+    /* bottom: 0; */
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logoFooter {
+    margin-top: 37px;
+    margin-bottom: 16px;
+}
+
+.footerText {
+    max-width: 800px;
+    width: 100%;
+}
+
+.footerText p {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    margin: 0;
+    /* Remove default margin for the paragraph */
+    text-align: center;
+}
+
+.sosmed {
+    margin-top: 38px;
+}
+
+.fa-brands {
+    color: #FFF;
+    text-align: center;
+    font-family: Font Awesome 6 Brands;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 22px;
+}
+
+.copyright {
+    display: flex;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.fa-copyright {
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.hero_section {
+    margin-top: 112px;
+    margin-left: 100px;
+    margin-bottom: 200px;
+    display: flex;
+    margin-right: 100px;
+}
+
+.hero_section img {
+    width: 556px;
+    height: 367.822px;
+    flex-shrink: 0;
+}
+
+.gpstitle {
+    margin-left: 80px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 73px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.fa-location-dot {
+    font-family: Font Awesome 6 Free;
+    font-size: 77px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    background: linear-gradient(183deg, #DCF354 19.48%, rgba(220, 243, 84, 0.00) 114.79%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gpstitle p {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-right: 80px;
+    margin-top: 23px;
+}
+
+.form-check input {
+
+    width: 302px;
+    height: 60px;
+    flex-shrink: 0;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .hero_section {
+        display: flex;
+        /* margin-bottom: 200px; */
+        flex-direction: column;
+
+    }
+
+    .gpstitle {
+        /* flex-direction: column; */
+        width: 425px;
+        height: 149.688px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: Montserrat;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        margin-left: 0;
+        text-align: center;
+        margin-left: 20px;
+        margin-bottom: 100px;
+    }
+
+    .gpstitle p {
+        /* margin-top: 100px; */
+        width: 450px;
+        height: 48.062px;
+        flex-shrink: 0;
+        margin-top: 10px;
+        font-size: 20px;
+        text-align: center;
+        /* padding-left: 50px; */
+        /* margin-left: 0px; */
+        /* margin-right: 100px; */
+    }
+
+    .fa-location-dot {
+        font-size: 41px;
+    }
+
+    .gps img {
+        width: 456px;
+        height: 300.822px;
+        flex-shrink: 0;
+    }
+
+    .form-check .form-check-input {
+        width: 100px;
+        height: 25.688px;
+        flex-shrink: 0;
+        margin-left: 50px;
+        /* text-align: center; */
+    }
+
+    .footer {
+        width: 100vh;
+        height: 100vw;
+    }
+
+}
