@@ -1,0 +1,310 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* title */
+.title {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
+
+.title h1 {
+  font-weight: 600;
+  font-size: 3em;
+  width: 70vw;
+  margin-top: 0.5em;
+  margin-bottom: 0;
+}
+
+.title img {
+  position: absolute;
+  z-index: -1;
+  height: auto;
+  width: 10vw;
+  margin-top: 0.6em;
+  margin-left: -65vw;
+}
+
+.label {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.label p {
+  background: #000000;
+  color: #ffffff;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 90px;
+  font-style: italic;
+  margin-right: 6px;
+  margin-bottom: 0;
+}
+
+.author p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1vh;
+  font-size: 0.7em;
+  margin-bottom: 0;
+}
+
+/* Banner */
+.banner {
+  text-align: center;
+  margin-top: 3em;
+  display: flex;
+  justify-content: center;
+}
+
+.banner img {
+  position: relative;
+  width: 55em;
+  height: 25em;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.purpleCircle {
+  display: flex;
+  justify-content: right;
+  z-index: -1;
+  margin-top: -28em;
+  margin-right: 17em;
+}
+
+.purpleCircle img {
+  height: auto;
+  width: 8em;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+}
+
+.text p {
+  width: 60vw;
+  text-align: justify;
+  margin-top: 22em;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.others {
+  margin-left: -8vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.others img {
+  height: 100%;
+  width: 18vw;
+}
+
+.other p {
+  margin-left: 19.3vw;
+  background-color: #000000;
+  color: #ffffff;
+  width: 12vw;
+  font-size: 1.2em;
+  text-align: center;
+  border-radius: 90px;
+  font-weight: 600;
+  margin-bottom: 0.3em;
+}
+
+.article {
+  display: flex;
+  flex-direction: row;
+  border: solid 3px #d3d3d3;
+  width: 32.5vw;
+  padding: 0.5em;
+  border-radius: 7px;
+  margin-bottom: 0.8em;
+}
+
+.article img {
+  width: 9vw;
+  height: 6em;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.titledesc {
+  display: flex;
+  flex-direction: column;
+  width: 23vw;
+  margin-left: 0.6em;
+}
+
+.titledesc p {
+  margin: 0;
+  font-size: 1em;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.space {
+  width: 100%;
+  height: 3px;
+  background-color: #d3d3d3;
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+}
+
+.label2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.label2 p {
+  margin-right: 0.4em;
+  background-color: #000000;
+  color: #ffffff;
+  padding-left: 1em;
+  padding-right: 1em;
+  border-radius: 90px;
+  font-style: italic;
+  font-size: 0.7em;
+}
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .title h1 {
+    font-size: 2em;
+  }
+
+  .title img {
+    width: 8em;
+  }
+
+  .label p {
+    font-size: 0.7em;
+  }
+
+  .author p {
+    font-size: 0.6em;
+  }
+
+  .banner img {
+    width: 30em;
+    height: 17em;
+    border-radius: 20px;
+  }
+
+  .purpleCircle img {
+    width: 7em;
+    margin-top: 9em;
+    margin-right: -12em;
+    height: auto;
+  }
+
+  .banner {
+    margin-top: 2em;
+  }
+
+  .text p {
+    margin-top: 13.5em;
+    width: 65vw;
+  }
+
+  .article {
+    margin-bottom: 0.4em;
+    margin-left: -1.5em;
+  }
+
+  .article img {
+    width: 6em;
+    height: 4.3em;
+  }
+
+  .titledesc p {
+    font-size: 0.5em;
+  }
+
+  .other p {
+    font-size: 1em;
+    margin-bottom: 1em;
+  }
+
+  .circlethree {
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .title h1 {
+    font-size: 1em;
+  }
+
+  .title img {
+    width: 4.3em;
+    margin-top: -0.1px;
+  }
+
+  .label p {
+    font-size: 0.4em;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .author p {
+    font-size: 0.3em;
+  }
+
+  .banner img {
+    width: 16em;
+    height: 9em;
+    border-radius: 8px;
+  }
+
+  .purpleCircle img {
+    width: 3em;
+    margin-top: 17.5em;
+    margin-right: -15em;
+    height: auto;
+  }
+
+  .banner {
+    margin-top: 1em;
+  }
+
+  .text {
+    margin-top: 1.3em;
+  }
+
+  .text p {
+    font-size: 0.5em;
+  }
+
+  .article img {
+    width: 3em;
+    height: 2em;
+  }
+
+  .titledesc p {
+    font-size: 5px;
+  }
+
+  .titledesc {
+    width: 60vw;
+  }
+
+  .others {
+    justify-content: center;
+    margin: 0;
+  }
+
+  .other p {
+    font-size: 9px;
+  }
+}
