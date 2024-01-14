@@ -454,6 +454,13 @@ iframe {
   }
 }
 
+@media screen and (min-width: 769px) {
+  .navbar-nav {
+    display: flex;
+    flex-direction: row !important;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .nav-left .nav-menu {
     display: none;
