@@ -760,7 +760,7 @@ button {
 
     .atas_inside {
         padding-top: 15px;
-        width: 180px;
+        width: 150px;
         height: 58px;
         font-size: 20px;
     }
@@ -768,7 +768,7 @@ button {
     .tengah_inside {
         padding-top: 15px;
 
-        width: 180px;
+        width: 150px;
         height: 58px;
         font-size: 20px;
     }
@@ -857,6 +857,205 @@ button {
 
 }
 
-@media (min-width: 420px) and (max-width: 768px){
+@media (min-width: 769px) and (max-width: 1024px){
+
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .heroSection{
+        /* justify-content: center; */
+        /* align-items: center; */
+        width: 770px;
+        margin-left: 20px;
+        margin-bottom: 180px;
+    }
+
+    .heroText{
+        margin-top: 60px;
+    }
+
+    .hero_title{
+        width: 300px;
+        font-size: 30px;
+    }
+
+    .hero_info{
+        width: 300px;
+        font-size: 12px;
+    }
+
+    #search {
+        width: 200px;
+        height: 30px;
+    }
+
+    button{
+        height: 30px;
+        width: 70px;
+        font-size: 15px;
+    }
+
+    .menu_utamaTitle{
+        width: 500px;
+        height: 50px;
+        margin-bottom: 35px;
+    }
+
+    .menu_utamaTitle p{
+
+        padding-top: 5px;
+        font-size: 30px;
+    }
+
+    /* .menu_detail{
+        margin: 0;
+    } */
+
+    .isi_menu_detail1{
+        margin: 0;
+        width: 120px;
+        height: 100px;
+    }
+
+    .isi_menu_detail{
+        width: 120px;
+        height: 100px;
+        margin-right: 0;
+        margin-left: 20px;
+        /* margin: 0; */
+    }
+
+    .heroImg img{
+        width: 450px;
+        height: 313px;
+    }
+
+    .halalFood{
+        width: 200px;
+        height: 40px;
+        font-size: 30px;
+    }
+
+    .salatTime{
+        /* display: none; */
+        width: 770px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .waktuSholat{
+        width: 400px;
+        height: 500px;
+        margin-left: 0;
+    }
+
+    .waktuSholatTitle{
+        font-size: 40px;
+    }
+
+    .waktuSholat p{
+        width: 400px;
+        font-size: 15px;
+    }
+
+    .world{
+        margin-left: 200px;
+    }
+
+    .main_waktuSholat{
+        width: 400px;
+        height: 290px;
+        margin-left: 50px;
+    }
     
+    .atas_inside {
+        padding-top: 15px;
+        width: 150px;
+        height: 58px;
+        font-size: 20px;
+    }
+
+    .tengah_inside {
+        padding-top: 15px;
+
+        width: 150px;
+        height: 58px;
+        font-size: 20px;
+    }
+
+    .bawah_inside {
+        padding-top: 15px;
+        width: 150px;
+        height: 58px;
+        font-size: 20px;
+    }
+
+    .atas_waktu {
+        padding-top: 15px;
+
+    }
+
+    .tengah_waktu {
+        padding-top: 15px;
+
+    }
+
+    .bawah_waktu {
+        padding-top: 15px;
+    }
+
+
+    .img_salatTime img{
+        width: 450px;
+        height: 313px;
+        margin-left: 0;
+    }
+
+    
+    .img_salatTime{
+        margin-left: 0;
+        margin-bottom: 70px;
+    }
+    
+    .menu_utama{
+        margin-bottom: 150px;
+    }
+    
+    .travelNews{
+        /* display: none; */
+        width: 770px;
+        height: 572px;
+    }
+
+    /* .content_main_travelNews{
+        display: none;
+    } */
+
+    .content_main_travelNews.ketiga{
+        display: none;
+    }
+
+    .content_main_travelNews1{
+        margin-left: 50px;
+    }
+
+    .row2_main_travelNews{
+        margin-top: 30px;
+    }
+
+    .row1_main_travelNews{
+        margin-top: 40px;
+    }
+
+    .main_travelNews img {
+        width: 300px;
+        height: 139px;
+    }
+    
+
 }
