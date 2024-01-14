@@ -82,7 +82,7 @@ body {
 }
 
 nav {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 100vw;
   height: 4rem;
   margin-bottom: 1rem;
@@ -118,9 +118,9 @@ nav {
   padding: 1rem;
 }
 
-.container {
+/* .container {
   border: 1px solid black;
-}
+} */
 
 .nav-menu .nav-item a {
   font-size: 1.25rem;
@@ -175,7 +175,7 @@ nav {
   flex-direction: column;
   width: 100%;
   min-height: 1000px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   align-items: center;
   padding-bottom: 5rem;
 }
