@@ -3,36 +3,6 @@ body {
   padding: 0;
   height: 100%;
 }
-.nav-link {
-  color: #000;
-  font-family: Montserrat;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.navbar {
-  margin: 20px 52px 0px 51px;
-  /* border: #000 1px solid; */
-}
-
-.regist {
-  border: #775eff 1px solid;
-  border-radius: 30px;
-  background: #775eff;
-}
-
-.regist a {
-  color: #fff;
-  font-family: Montserrat;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-}
 
 /* .kanan{
     margin-left:200px;
@@ -111,13 +81,101 @@ body {
   line-height: normal;
 }
 
+nav {
+  border: 1px solid red;
+  width: 100vw;
+  height: 4rem;
+  margin-bottom: 1rem;
+}
+
+.nav-konten {
+  padding: 0 2rem;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-brand {
+  padding: 1rem 0 0 1rem;
+}
+
+.nav-menu {
+  margin-left: 3rem;
+}
+
+.nav-left {
+  display: flex;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-nav li {
+  padding: 1rem;
+}
+
+.container {
+  border: 1px solid black;
+}
+
+.nav-menu .nav-item a {
+  font-size: 1.25rem;
+  padding-bottom: 0;
+  border-bottom: 3px solid transparent; /* Menggunakan warna transparan */
+  transition: border-bottom 0.3s ease;
+}
+
+.nav-menu .nav-item a:hover {
+  border-bottom: 3px solid #8771ff; /* Mengganti warna border pada hover */
+}
+
+.nav-menu.show-bar {
+  display: none;
+}
+
+.nav-right {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-right .btn {
+  font-size: 1.25rem;
+  color: #000;
+  margin: 0 0.5rem;
+  border-radius: 20px;
+}
+
+.nav-right .btn:hover {
+  color: #fff;
+  background-color: #765eff;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+}
+
 .konten {
   margin-top: 3rem;
   display: flex;
   flex-direction: column;
   width: 100%;
   min-height: 1000px;
-  /* border: 1px solid black; */
+  border: 1px solid black;
   align-items: center;
   padding-bottom: 5rem;
 }
@@ -397,6 +455,65 @@ iframe {
 }
 
 @media screen and (max-width: 768px) {
+  .nav-left .nav-menu {
+    display: none;
+  }
+
+  .nav-menu.show-bar .nav-item a {
+    font-size: 1.25rem;
+    padding-bottom: 0;
+    background-color: transparent;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Menambahkan transition untuk warna teks */
+  }
+
+  .nav-menu.show-bar .nav-item a:hover {
+    background-color: #8771ff;
+    color: #fff;
+  }
+
+  .nav-left .nav-menu.show-bar {
+    display: flex;
+    position: absolute;
+    left: -100rem;
+    top: 4rem; /* Adjust the top position as needed */
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: left 0.3s ease; /* Use left property for animation */
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    margin: 0;
+  }
+
+  .nav-left .nav-menu.show-bar.active {
+    left: 0;
+  }
+
+  .nav-left .nav-menu.show-bar .navbar-nav {
+    flex-direction: column;
+  }
+
+  .nav-right {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
   .mosque {
     max-height: 300px;
     max-width: 300px;
@@ -444,19 +561,19 @@ iframe {
     overflow: hidden;
   }
 
-  .box-note{
-    background-size: 205px 240px
+  .box-note {
+    background-size: 205px 240px;
   }
-  .box-text{
+  .box-text {
     font-size: 1rem;
   }
 }
 
 @media screen and (max-width: 426px) {
-  .left-konten{
+  .left-konten {
     display: none;
   }
-  .mosque{
+  .mosque {
     display: none;
   }
 
@@ -502,14 +619,14 @@ iframe {
     overflow: hidden;
   }
 
-  .box-note{
-   display: none;
+  .box-note {
+    display: none;
   }
-  .box-text{
+  .box-text {
     display: none;
   }
 
-  .pagination{
+  .pagination {
     padding: 0;
   }
   .pagination ul {
@@ -519,13 +636,13 @@ iframe {
   .footerText p {
     font-size: 1rem;
   }
-  .fa-brands{
+  .fa-brands {
     font-size: 1.5rem;
   }
-  .copyright{
+  .copyright {
     font-size: 1rem;
   }
-  .fa-copyright{
+  .fa-copyright {
     font-size: 1rem;
   }
 }
@@ -534,7 +651,7 @@ iframe {
   .title h1 {
     font-size: 1.5rem;
   }
- .pagination ul li{
-  margin: 0;
- }
+  .pagination ul li {
+    margin: 0;
+  }
 }
