@@ -1,0 +1,1097 @@
+body {
+    /* background-color: black; */
+    height: 100%;
+    width: 100%;
+}
+
+.nav-link {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar {
+    margin: 20px 52px 0px 51px;
+    /* border: #000 1px solid; */
+}
+
+
+.regist {
+    border: #775EFF 1px solid;
+    border-radius: 30px;
+    background: #775EFF;
+}
+
+.regist a {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+#kanan {
+    margin-left: 190px;
+}
+
+
+.footer {
+    background-color: black;
+    text-align: center;
+    /* position: fixed; */
+    /* left: 0; */
+    /* bottom: 0; */
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logoFooter {
+    margin-top: 37px;
+    margin-bottom: 16px;
+}
+
+.footerText {
+    max-width: 800px;
+    width: 100%;
+}
+
+.footerText p {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    margin: 0;
+    /* Remove default margin for the paragraph */
+    text-align: center;
+}
+
+.sosmed {
+    margin-top: 38px;
+}
+
+.fa-brands {
+    color: #FFF;
+    text-align: center;
+    font-family: Font Awesome 6 Brands;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 22px;
+}
+
+.copyright {
+    display: flex;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.fa-copyright {
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+
+
+
+
+.heroSection {
+    display: flex;
+    margin-bottom: 217px;
+    /* border: #000 1px solid; */
+    margin-top: 56px;
+    margin-left: 80px;
+
+}
+
+.heroText {
+    /* justify-content: center; */
+    width: 620px;
+    height: 240px;
+    margin-right: 12px;
+    margin-top: 177px;
+    /* display: flex; */
+    /* width: fit-content; */
+}
+
+.hero_info {
+    width: 700px;
+    margin-top: 21px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.hero_title {
+    color: #000;
+    /* border: #000 1px solid; */
+    /* text-align: center; */
+
+    font-family: Montserrat;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.halalFood {
+    display: inline-block;
+    /* border: #000 1px solid; */
+    width: 280px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 81px;
+    background: #DBF253;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 33px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    /* margin-bottom: 50px; */
+}
+
+/* 
+.halalFood p {
+} */
+
+
+.heroImg img {
+    width: 720px;
+    height: 613px;
+    flex-shrink: 0;
+}
+
+button {
+    width: 100px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 39px;
+    background: #775FFF;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#search {
+    border-radius: 39px;
+    border: 3px solid #D3D3D3;
+    width: 362px;
+    height: 35px;
+    flex-shrink: 0;
+}
+
+.menu_utama {
+    margin-bottom: 202px;
+    /* border: #000 1px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu_utamaTitle {
+    border: #000 1px solid;
+    /* padding-top: 100px; */
+    width: 750px;
+    height: 65px;
+    flex-shrink: 0;
+    border-radius: 63px;
+    background: #000;
+    margin-bottom: 51px;
+}
+
+.menu_utamaTitle p {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+
+.isi_menu_detail {
+    margin-right: 35px;
+    transition: transform .5s;
+}
+
+.isi_menu_detail:hover {
+    transform: scale(1.3);
+}
+
+.isi_menu_detail1 {
+    margin-right: 35px;
+    margin-left: 37px;
+    transition: transform .5s;
+
+}
+
+
+.isi_menu_detail1:hover {
+    transform: scale(1.3);
+}
+
+.salatTime {
+    margin-bottom: 174px;
+    display: flex;
+    /* border: #000 1px solid; */
+
+}
+
+.img_salatTime img {
+    width: 862.904px;
+    height: 532px;
+    flex-shrink: 0;
+}
+
+.img_salatTime {
+    margin-left: 40px;
+}
+
+.waktuSholat {
+    /* border: #000 1px solid; */
+    margin-left: 65px;
+}
+
+
+.waktuSholatTitle {
+    /* background-image: url(/component/image/Ellipse\ 33.png); */
+    color: #000;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 61px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    /* margin-left: 50px; */
+
+}
+
+.waktuSholat p {
+    color: #000;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    width: 434px;
+}
+
+.fa-globe {
+    width: 29.529px;
+    height: 29.48px;
+    flex-shrink: 0;
+    margin-left: 28px;
+    margin-right: 45px;
+}
+
+.world {
+    display: flex;
+    border-radius: 79.5px;
+    border: 1px solid #000;
+    background: #FFF;
+    width: 201px;
+    height: 29px;
+    flex-shrink: 0;
+    margin-left: 230px;
+}
+
+.country {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    width: 114px;
+    height: 22px;
+    flex-shrink: 0;
+    margin-left: 5px;
+}
+
+.globe {
+    border-right: #000 1px solid;
+    border-radius: 79.5px 0 0 79.5px;
+    width: 70px;
+}
+
+
+.main_waktuSholat {
+    margin-top: 35px;
+    /* margin-left: 40px; */
+}
+
+.atas {
+    display: flex;
+    /* border: #000 1px solid; */
+    margin-bottom: 4px;
+}
+
+.tengah {
+    display: flex;
+    /* border: #000 1px solid; */
+    margin-bottom: 4px;
+
+}
+
+.bawah {
+    display: flex;
+    /* border: #000 1px solid; */
+    margin-bottom: 4px;
+
+}
+
+.atas_inside {
+    /* border: #000 1px solid; */
+    width: 215px;
+    height: 58px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 59.5px 0px 0px 0px;
+    background: #DBF253;
+    padding-top: 10px;
+
+}
+
+.tengah_inside {
+    padding-top: 10px;
+
+    /* border: #000 1px solid; */
+    width: 215px;
+    height: 58px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: #DBF253;
+
+}
+
+
+.bawah_inside {
+    padding-top: 10px;
+
+    /* border: #000 1px solid; */
+    width: 215px;
+    height: 58px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 0px 0px 0px 59.5px;
+    background: #DBF253;
+}
+
+.atas_waktu {
+    padding-top: 10px;
+
+    /* border: #000 1px solid; */
+    color: #FFF;
+    /* text-align: right; */
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 220px;
+    height: 58px;
+    flex-shrink: 0;
+    background: linear-gradient(90deg, #775FFF 50.15%, rgba(118, 94, 255, 0.00) 93.99%);
+    padding-left: 20px;
+}
+
+.tengah_waktu {
+    padding-top: 10px;
+
+    /* border: #000 1px solid; */
+    width: 220px;
+    height: 58px;
+    flex-shrink: 0;
+    color: #FFF;
+    /* text-align: right; */
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    background: linear-gradient(90deg, #775FFF 50.15%, rgba(118, 94, 255, 0.00) 93.99%);
+    line-height: normal;
+    padding-left: 20px;
+
+}
+
+.bawah_waktu {
+    padding-top: 10px;
+
+    /* border: #000 1px solid; */
+    width: 220px;
+    height: 58px;
+    flex-shrink: 0;
+    color: #FFF;
+    /* text-align: right; */
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: linear-gradient(90deg, #775FFF 50.15%, rgba(118, 94, 255, 0.00) 93.99%);
+    padding-left: 20px;
+
+}
+
+
+
+.travelNews {
+    margin-left: 72px;
+    /* display: flex; */
+    /* align-items: center; */
+    width: 1300px;
+    height: 872px;
+    flex-shrink: 0;
+    border-radius: 68px;
+    border: 3px solid #B7B7B7;
+    margin-bottom: 10%;
+}
+
+.title_travelNews {
+    /* border: #000 1px solid; */
+    margin-left: 74px;
+    margin-top: 40px;
+    padding-left: 50px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 66px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    width: fit-content;
+    line-height: normal;
+    border-radius: 64px;
+    background: #DBF253;
+}
+
+.main_travelNews {
+    display: flex;
+    flex-direction: column;
+}
+
+.main_travelNews img {
+
+    width: 345px;
+    height: 239px;
+    flex-shrink: 0;
+    /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)); */
+}
+
+
+
+
+.content_main_travelNews1 {
+    margin-left: 74px;
+    margin-top: 23px;
+    /* border: #000 1px solid; */
+}
+
+
+.content_main_travelNews {
+    margin-top: 23px;
+    margin-left: 56px;
+}
+
+.row1_main_travelNews {
+    display: flex;
+    flex-direction: row;
+}
+
+.row2_main_travelNews {
+    margin-top: 57px;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    /* padding: 0; */
+}
+
+/* .outer-img{
+    width: 345px;
+    height: 239px;
+    background: linear-gradient(0deg, #000 41.82%, rgba(0, 0, 0, 0.00) 99.93%);
+    border: #ff0000 1px solid;
+} */
+
+/* .outer-card-text {
+    width: 345px;
+    border-radius: 0px 0px 5px 5px;
+    background: linear-gradient(0deg, #000 41.82%, rgba(0, 0, 0, 0.00) 99.93%);
+
+} */
+
+/* .card-text{
+    text-align: center;
+} */
+
+
+.gradient {
+    background-color: #000;
+}
+
+.heroText.second {
+    display: none;
+}
+
+.outerMore {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.more {
+    margin-right: 100px;
+    border-radius: 27.5px 27.5px 27.5px 27.5px;
+    padding-top: 10px;
+    background: #000;
+    border: #000 1px solid;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 134px;
+    height: 51px;
+    /* transform: rotate(90deg); */
+    flex-shrink: 0;
+    margin-top: 20px;
+}
+
+
+@media (min-width: 420px) and (max-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .heroSection {
+        width: 400px;
+        display: flex;
+        /* height: 263px; */
+        flex-direction: column;
+        justify-content: center;
+        /* display: none; */
+        margin: 0;
+        margin-left: 15px;
+    }
+
+    .heroImg img {
+        margin-top: 20px;
+        width: 400px;
+        height: 363px;
+
+    }
+
+    .halalFood {
+        width: 190px;
+        height: 35px;
+        font-size: 25px;
+    }
+
+    .heroText.second {
+        display: unset;
+        width: 400px;
+        height: 263px;
+        margin-top: 10px;
+        /* margin-right: 12px; */
+        /* margin-top: 177px; */
+    }
+
+    .heroText.second .hero_title {
+        font-size: 40px;
+    }
+
+    .hero_info {
+        font-size: 20px;
+        width: 400px;
+        height: 48px;
+    }
+
+    .heroText {
+        display: none;
+        margin-top: 70px;
+    }
+
+    .menu_utama {
+        /* width: 00px; */
+        /* display: none; */
+        width: 400px;
+        /* height: 290px; */
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 200px;
+        margin-bottom: 150px;
+
+    }
+
+    .isi_menu_detail1 {
+        margin-left: 0;
+    }
+
+    .isi_menu_detail {
+        margin-top: 40px;
+    }
+
+    .menu_detail {
+        display: flex;
+        /* flex-direction: column; */
+    }
+
+    .menu_utamaTitle {
+        width: 350px;
+        height: 50px;
+    }
+
+    .menu_utamaTitle p {
+        padding-top: 10px;
+        font-size: 25px;
+    }
+
+
+    .travelNews {
+        /* display: none; */
+        width: 400px;
+        margin-left: 0;
+        height: 600px;
+    }
+
+    .title_travelNews {
+        margin-left: 50px;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .main_travelNews img {
+        width: 300px;
+        height: 139px;
+    }
+
+    .salatTime {
+        /* display: none; */
+        /* margin: 0; */
+        /* margin-top: 170px; */
+        display: flex;
+        flex-direction: column;
+        /* text-align: left; */
+    }
+
+    .waktuSholat {
+        margin: 0;
+    }
+
+    .waktuSholatTitle {
+        text-align: left;
+        margin-left: 20px;
+        font-size: 40px;
+    }
+
+    .waktuSholat p {
+        text-align: left;
+        font-size: 20px;
+        margin-left: 20px;
+        width: 400px;
+    }
+
+    .world {
+        /* display: inline; */
+        margin: 0;
+        margin-left: 20px;
+
+    }
+
+    .main_waktuSholat {
+        width: 400px;
+        height: 290px;
+        margin-left: 20px;
+
+    }
+
+
+    .salatTime img {
+        width: 400px;
+        height: 250px;
+        /* margin: 0; */
+    }
+
+    .img_salatTime {
+        /* margin: 0; */
+        margin-left: 12px;
+        margin-bottom: 10px;
+    }
+
+    .atas_inside {
+        padding-top: 15px;
+        width: 150px;
+        height: 58px;
+        font-size: 20px;
+    }
+
+    .tengah_inside {
+        padding-top: 15px;
+
+        width: 150px;
+        height: 58px;
+        font-size: 20px;
+    }
+
+    .bawah_inside {
+        padding-top: 15px;
+        width: 150px;
+        height: 58px;
+        font-size: 20px;
+    }
+
+    .atas_waktu {
+        padding-top: 15px;
+
+    }
+
+    .tengah_waktu {
+        padding-top: 15px;
+
+    }
+
+    .bawah_waktu {
+        padding-top: 15px;
+    }
+
+    /* margin-top: 50%; */
+
+    .isi_menu_detail {
+        margin-right: 15px;
+        width: 80px;
+        height: 80px;
+    }
+
+    .isi_menu_detail1 {
+        margin-top: 40px;
+        width: 80px;
+        height: 80px;
+        margin-right: 15px;
+    }
+
+    .menu_detail {
+        margin: 0;
+        margin-left: 40px;
+        margin-right: 20px;
+        /* margin-left: 20px; */
+        width: 380px;
+    }
+
+    .menu_utamaTitle {
+        margin-bottom: 10px;
+    }
+
+
+    .footerText p {
+        margin-left: 50px;
+        margin-right: 50px;
+
+    }
+
+    /* .footer {
+        width: 100vh;
+        height: 100vw;
+    } */
+
+    .content_main_travelNews {
+        display: none;
+    }
+
+    .content_main_travelNews1 {
+        margin-left: 50px;
+    }
+
+    #searchImg {
+        margin-bottom: 50px;
+    }
+
+
+    #searchImg input {
+        width: 300px;
+    }
+
+    .row2_main_travelNews {
+        margin-top: 30px;
+    }
+
+    .more {
+        width: 100px;
+        height: 51px;
+        font-size: 20px;
+    }
+
+    /* #searchImg button{
+        width: 50px;
+    } */
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .heroSection {
+        /* justify-content: center; */
+        /* align-items: center; */
+        width: 770px;
+        margin-left: 20px;
+        margin-bottom: 180px;
+    }
+
+    .heroText {
+        margin-top: 60px;
+    }
+
+    .hero_title {
+        width: 300px;
+        font-size: 30px;
+    }
+
+    .hero_info {
+        width: 300px;
+        font-size: 12px;
+    }
+
+    #search {
+        width: 200px;
+        height: 30px;
+    }
+
+    button {
+        height: 30px;
+        width: 70px;
+        font-size: 15px;
+    }
+
+    .menu_utamaTitle {
+        width: 500px;
+        height: 50px;
+        margin-bottom: 35px;
+    }
+
+    .menu_utamaTitle p {
+
+        padding-top: 5px;
+        font-size: 30px;
+    }
+
+    /* .menu_detail{
+        margin: 0;
+    } */
+
+    .isi_menu_detail1 {
+        margin: 0;
+        width: 120px;
+        height: 100px;
+    }
+
+    .isi_menu_detail {
+        width: 120px;
+        height: 100px;
+        margin-right: 0;
+        margin-left: 20px;
+        /* margin: 0; */
+    }
+
+    .heroImg img {
+        width: 450px;
+        height: 313px;
+    }
+
+    .halalFood {
+        width: 200px;
+        height: 40px;
+        font-size: 30px;
+    }
+
+    .salatTime {
+        /* display: none; */
+        width: 770px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .waktuSholat {
+        width: 400px;
+        height: 500px;
+        margin-left: 0;
+    }
+
+    .waktuSholatTitle {
+        font-size: 40px;
+    }
+
+    .waktuSholat p {
+        width: 400px;
+        font-size: 15px;
+    }
+
+    .world {
+        margin-left: 200px;
+    }
+
+    .main_waktuSholat {
+        width: 400px;
+        height: 290px;
+        margin-left: 50px;
+    }
+
+    .atas_inside {
+        padding-top: 15px;
+        width: 150px;
+        height: 58px;
+        font-size: 20px;
+    }
+
+    .tengah_inside {
+        padding-top: 15px;
+
+        width: 150px;
+        height: 58px;
+        font-size: 20px;
+    }
+
+    .bawah_inside {
+        padding-top: 15px;
+        width: 150px;
+        height: 58px;
+        font-size: 20px;
+    }
+
+    .atas_waktu {
+        padding-top: 15px;
+
+    }
+
+    .tengah_waktu {
+        padding-top: 15px;
+
+    }
+
+    .bawah_waktu {
+        padding-top: 15px;
+    }
+
+
+    .img_salatTime img {
+        width: 450px;
+        height: 313px;
+        margin-left: 0;
+    }
+
+
+    .img_salatTime {
+        margin-left: 0;
+        margin-bottom: 70px;
+    }
+
+    .menu_utama {
+        margin-bottom: 150px;
+    }
+
+    .travelNews {
+        /* display: none; */
+        width: 770px;
+        height: 572px;
+    }
+
+    /* .content_main_travelNews{
+        display: none;
+    } */
+
+    .content_main_travelNews.ketiga {
+        display: none;
+    }
+
+    .content_main_travelNews1 {
+        margin-left: 50px;
+    }
+
+    .row2_main_travelNews {
+        margin-top: 10px;
+    }
+
+    .row1_main_travelNews {
+        margin-top: 20px;
+    }
+
+    .main_travelNews img {
+        width: 300px;
+        height: 139px;
+    }
+
+
+
+
+}

@@ -1,0 +1,39 @@
+/* body{
+    background-color: black;
+} */
+.nav-link {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar {
+    margin: 20px 52px 0px 51px;
+    /* border: #000 1px solid; */
+}
+
+
+.regist {
+    border: #775EFF 1px solid;
+    border-radius: 30px;
+    background: #775EFF;
+}
+
+.regist a {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+#kanan{
+    margin-left:190px;
+}

@@ -1,0 +1,664 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* .kanan{
+    margin-left:200px;
+} */
+
+.footer {
+  background-color: black;
+  text-align: center;
+  /* position: fixed;
+    left: 0;
+    bottom: 0; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logoFooter {
+  margin-top: 37px;
+  margin-bottom: 16px;
+}
+
+.footerText {
+  max-width: 800px;
+  width: 100%;
+}
+
+.footerText p {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  margin: 0;
+  /* Remove default margin for the paragraph */
+  text-align: center;
+}
+
+.sosmed {
+  margin-top: 38px;
+}
+
+.fa-brands {
+  color: #fff;
+  text-align: center;
+  font-family: Font Awesome 6 Brands;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 22px;
+}
+
+.copyright {
+  display: flex;
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+.fa-copyright {
+  margin-left: 8px;
+  margin-right: 8px;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+nav {
+  /* border: 1px solid red; */
+  width: 100vw;
+  height: 4rem;
+  margin-bottom: 1rem;
+}
+
+.nav-konten {
+  padding: 0 2rem;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-brand {
+  padding: 1rem 0 0 1rem;
+}
+
+.nav-menu {
+  margin-left: 3rem;
+}
+
+.nav-left {
+  display: flex;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-nav li {
+  padding: 1rem;
+}
+
+/* .container {
+  border: 1px solid black;
+} */
+
+.nav-menu .nav-item a {
+  font-size: 1.25rem;
+  padding-bottom: 0;
+  border-bottom: 3px solid transparent; /* Menggunakan warna transparan */
+  transition: border-bottom 0.3s ease;
+}
+
+.nav-menu .nav-item a:hover {
+  border-bottom: 3px solid #8771ff; /* Mengganti warna border pada hover */
+}
+
+.nav-menu.show-bar {
+  display: none;
+}
+
+.nav-right {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-right .btn {
+  font-size: 1.25rem;
+  color: #000;
+  margin: 0 0.5rem;
+  border-radius: 20px;
+}
+
+.nav-right .btn:hover {
+  color: #fff;
+  background-color: #765eff;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+}
+
+.konten {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 1000px;
+  /* border: 1px solid black; */
+  align-items: center;
+  padding-bottom: 5rem;
+}
+.konten-head {
+  display: flex;
+  width: 100%;
+  min-height: 400px;
+  /* border: 1px solid red; */
+}
+
+.top-konten .title {
+  display: none;
+}
+
+.left-konten {
+  display: flex;
+  width: 40%;
+  min-height: 400px;
+  /* border: 1px solid blue; */
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: flex-end;
+}
+.mosque {
+  max-height: 500px;
+}
+.right-konten {
+  display: flex;
+  width: 60%;
+  min-height: 400px;
+  /* border: 1px solid green; */
+}
+
+.title h1 {
+  font-size: 3.063rem;
+  font-weight: 600;
+  /* border: 1px solid salmon; */
+  font-family: "Montserrat";
+}
+.maps {
+  width: 100%;
+  min-height: 450px;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 0 1rem;
+}
+
+iframe {
+  width: 100%;
+  min-height: 450px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.konten-bottom {
+  display: flex;
+  width: 100%;
+  min-height: 400px;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.box-note {
+  display: flex;
+  margin-top: 36px;
+  /* border: 1px solid black; */
+  /* min-width: 0px;
+  max-width: 200px; */
+  width: 245px;
+  /* min-height: 50px;
+  max-width: 300px; */
+  height: 280px;
+  background-image: url(../asset/Group175.png);
+  background-repeat: no-repeat;
+  background-size: 245px 280px;
+  padding: 10px;
+}
+
+.box-text {
+  width: 100%;
+  height: 100%;
+  color: rgb(0, 0, 0);
+  font-family: Montserrat;
+  font-size: 1.05rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 12px;
+  font-weight: bold;
+}
+
+.list-item {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  min-height: 400px;
+  /* border: 1px solid orange; */
+  max-width: 600px;
+  padding: 1rem;
+}
+
+.item-maps {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 47px;
+  border-radius: 16px;
+  border: 3px solid #d3d3d3;
+  transition: border 0.3s ease;
+}
+
+.item-maps.main:hover {
+  transition: 0.5ms;
+  border: 3px solid #765eff;
+  box-shadow: 0 0 5px 5px rgba(118, 94, 255, 0.5);
+}
+
+.item-maps .left {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  border-right: 3px solid #d3d3d3 !important;
+  border-radius: 0;
+  border: none;
+  justify-content: center;
+  transition: border-right 0.3s ease;
+}
+
+/* .item-maps .left:hover {
+   transition: 0.5ms;
+   border-right: 3px solid #765eff !important;
+} */
+
+.item-maps .left h4 {
+  padding-left: 10px;
+  font-size: 1.05rem;
+  width: 100%;
+  margin: 0;
+  border-bottom: 3px solid #d3d3d3 !important;
+  border-radius: 0;
+  border-right: 0 !important;
+  border: none;
+  transition: border-bottom 0.3s ease; /* Animasi perubahan warna selama 0.3 detik dengan fungsi timing ease */
+}
+
+/* .item-maps .left h4:hover {
+  transition: 0.5ms;
+  border-bottom: 3px solid #765eff !important;
+  border-right: 0 !important;
+} */
+
+.item-maps .left.desc {
+  width: 100%;
+  margin: 0;
+  padding-left: 5px;
+  border-right: 0 !important;
+  /* border: none; */
+}
+
+/* .item-maps .left.desc:hover {
+   border-top: 3px solid #765eff !important;
+} */
+
+.item-maps .left.desc span {
+  font-size: 0.85rem;
+  padding-left: 10px;
+  /* border: none; */
+}
+
+.item-maps .right {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 1px;
+  border: none;
+  /* border-left: #d3d3d3; */
+}
+
+.item-maps .right h1 {
+  /* padding-left: 10px; */
+  /* margin: 0; */
+  width: 100%;
+  font-size: 1.75rem;
+  text-align: center;
+  /* border: none; */
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  color: #000;
+  padding: 10px 40px;
+  border-radius: 6px;
+  /* width: 300px; */
+  /* height: 20px; */
+  /* border: 1px solid black; */
+}
+
+.pagination ul {
+  list-style-type: none;
+  display: flex;
+  margin: 20px 30px;
+  padding-left: 0;
+}
+
+.pagination ul li {
+  display: flex;
+  margin: 0 10px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 22px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease; /* Animasi perubahan warna selama 0.3 detik dengan fungsi timing ease */
+}
+
+.pagination ul li:hover {
+  color: #fff;
+  background: linear-gradient(#765eff, #765eff);
+  cursor: pointer;
+}
+
+.pagination ul li.active {
+  color: #fff;
+  background-image: linear-gradient(#765eff, #765eff);
+  background-repeat: no-repeat;
+}
+
+.btn1,
+.btn2 {
+  padding: 0.7rem 1rem;
+  display: inline-flex;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 500;
+  color: #383838;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  transition: background 0.3s ease, color 0.5s ease; /* Animasi perubahan warna selama 0.5 detik dengan fungsi timing ease */
+}
+
+.btn1:hover,
+.btn2:hover {
+  color: #fff;
+  background: #765eff;
+}
+
+/* .btn1:hover, .btn2:hover {
+  color: red;
+}
+
+.btn1:hover ~ .btn2, .btn2:hover ~ .btn1 {
+  color: red;
+} */
+
+@media screen and (max-width: 1024px) {
+  .mosque {
+    max-height: 450px;
+    max-width: 450px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .navbar-nav {
+    display: flex;
+    flex-direction: row !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-left .nav-menu {
+    display: none;
+  }
+
+  .nav-menu.show-bar .nav-item a {
+    font-size: 1.25rem;
+    padding-bottom: 0;
+    background-color: transparent;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Menambahkan transition untuk warna teks */
+  }
+
+  .nav-menu.show-bar .nav-item a:hover {
+    background-color: #8771ff;
+    color: #fff;
+  }
+
+  .nav-left .nav-menu.show-bar {
+    display: flex;
+    position: absolute;
+    left: -100rem;
+    top: 4rem; /* Adjust the top position as needed */
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: left 0.3s ease; /* Use left property for animation */
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    margin: 0;
+  }
+
+  .nav-left .nav-menu.show-bar.active {
+    left: 0;
+  }
+
+  .nav-left .nav-menu.show-bar .navbar-nav {
+    flex-direction: column;
+  }
+
+  .nav-right {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .mosque {
+    max-height: 300px;
+    max-width: 300px;
+  }
+
+  .konten-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .right-konten .title h1 {
+    display: none;
+  }
+  .top-konten .title {
+    display: unset;
+    text-align: center;
+  }
+  .googleMap {
+    width: 100%;
+  }
+  .right-konten {
+    display: flex;
+    width: 60%;
+    min-height: 400px;
+    /* border: 1px solid green; */
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .maps {
+    max-width: 418px;
+    min-height: 450px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 0 1rem;
+  }
+
+  iframe {
+    max-width: 418px;
+    min-height: 450px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+
+  .box-note {
+    background-size: 205px 240px;
+  }
+  .box-text {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .left-konten {
+    display: none;
+  }
+  .mosque {
+    display: none;
+  }
+
+  .konten-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .right-konten .title h1 {
+    display: none;
+  }
+  .top-konten .title {
+    display: unset;
+    text-align: center;
+  }
+  .googleMap {
+    width: 100%;
+  }
+  .right-konten {
+    display: flex;
+    width: 100%;
+    min-height: 400px;
+    /* border: 1px solid green; */
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .maps {
+    max-width: 418px;
+    min-height: 450px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 0 1rem;
+  }
+
+  iframe {
+    max-width: 418px;
+    min-height: 450px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+
+  .box-note {
+    display: none;
+  }
+  .box-text {
+    display: none;
+  }
+
+  .pagination {
+    padding: 0;
+  }
+  .pagination ul {
+    margin: 0;
+  }
+
+  .footerText p {
+    font-size: 1rem;
+  }
+  .fa-brands {
+    font-size: 1.5rem;
+  }
+  .copyright {
+    font-size: 1rem;
+  }
+  .fa-copyright {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .title h1 {
+    font-size: 1.5rem;
+  }
+  .pagination ul li {
+    margin: 0;
+  }
+}
