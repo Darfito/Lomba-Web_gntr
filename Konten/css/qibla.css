@@ -1,348 +1,472 @@
 body {
-    /* background-color: black; */
-    height: 100%;
-    width: 100%;
+  /* background-color: black; */
+  height: 100%;
+  width: 100%;
 }
 
-
-.nav-link {
-    color: #000;
-    font-family: Montserrat;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin-left: 10px;
-    margin-right: 10px;
+nav {
+  /* border: 1px solid red; */
+  width: 100vw;
+  height: 4rem;
+  margin-bottom: 1rem;
 }
 
-.navbar {
-    margin: 20px 52px 0px 51px;
-    /* border: #000 1px solid; */
+.nav-konten {
+  padding: 0 2rem;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
-
-.regist {
-    border: #775EFF 1px solid;
-    border-radius: 30px;
-    background: #775EFF;
+.nav-brand {
+  padding: 1rem 0 0 1rem;
 }
 
-.regist a {
-    color: #FFF;
-    font-family: Montserrat;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+.nav-menu {
+  margin-left: 3rem;
 }
 
-
-#kanan {
-    margin-left: 190px;
+.nav-left {
+  display: flex;
 }
 
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-nav li {
+  padding: 1rem;
+}
+
+/* .container {
+  border: 1px solid black;
+} */
+
+.nav-menu .nav-item a {
+  font-size: 1.25rem;
+  padding-bottom: 0;
+  border-bottom: 3px solid transparent; /* Menggunakan warna transparan */
+  transition: border-bottom 0.3s ease;
+}
+
+.nav-menu .nav-item a:hover {
+  border-bottom: 3px solid #8771ff; /* Mengganti warna border pada hover */
+}
+
+.nav-menu.show-bar {
+  display: none;
+}
+
+.nav-right {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-right .btn {
+  font-size: 1.25rem;
+  color: #000;
+  margin: 0 0.5rem;
+  border-radius: 20px;
+}
+
+.nav-right .btn:hover {
+  color: #fff;
+  background-color: #765eff;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+}
 
 .footer {
-    background-color: black;
-    text-align: center;
-    /* position: fixed; */
-    /* left: 0; */
-    /* bottom: 0; */
-    width: 100vw;
-    /* height: 100%; */
-    /* height: 100vh; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  background-color: black;
+  text-align: center;
+  /* position: fixed; */
+  /* left: 0; */
+  /* bottom: 0; */
+  width: 100vw;
+  /* height: 100%; */
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .logoFooter {
-    margin-top: 37px;
-    margin-bottom: 16px;
+  margin-top: 37px;
+  margin-bottom: 16px;
 }
 
 .footerText {
-    max-width: 800px;
-    width: 100%;
+  max-width: 800px;
+  width: 100%;
 }
 
 .footerText p {
-    color: #FFF;
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 100;
-    line-height: normal;
-    margin: 0;
-    /* Remove default margin for the paragraph */
-    text-align: center;
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  margin: 0;
+  /* Remove default margin for the paragraph */
+  text-align: center;
 }
 
 .sosmed {
-    margin-top: 38px;
+  margin-top: 38px;
 }
 
 .fa-brands {
-    color: #FFF;
-    text-align: center;
-    font-family: Font Awesome 6 Brands;
-    font-size: 35px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-right: 22px;
+  color: #fff;
+  text-align: center;
+  font-family: Font Awesome 6 Brands;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 22px;
 }
 
 .copyright {
-    display: flex;
-    color: #FFF;
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    flex-direction: row;
-    margin-top: 40px;
+  display: flex;
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  flex-direction: row;
+  margin-top: 40px;
 }
 
 .fa-copyright {
-    margin-left: 8px;
-    margin-right: 8px;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  margin-left: 8px;
+  margin-right: 8px;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
-
 .hero_section {
-    margin-top: 112px;
-    margin-left: 100px;
-    margin-bottom: 200px;
-    display: flex;
-    margin-right: 100px;
+  margin-top: 112px;
+  margin-left: 100px;
+  margin-bottom: 200px;
+  display: flex;
+  margin-right: 100px;
 }
 
 .hero_section img {
-    width: 556px;
-    height: 367.822px;
-    flex-shrink: 0;
+  width: 556px;
+  height: 367.822px;
+  flex-shrink: 0;
 }
 
 .gpstitle {
-    margin-left: 80px;
-    color: #000;
-    font-family: Montserrat;
-    font-size: 73px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+  margin-left: 80px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 73px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 .fa-location-dot {
-    font-family: Font Awesome 6 Free;
-    font-size: 77px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-    background: linear-gradient(183deg, #DCF354 19.48%, rgba(220, 243, 84, 0.00) 114.79%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  font-family: Font Awesome 6 Free;
+  font-size: 77px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  background: linear-gradient(
+    183deg,
+    #dcf354 19.48%,
+    rgba(220, 243, 84, 0) 114.79%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .gpstitle p {
-    color: #000;
-    font-family: Montserrat;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-    margin-right: 80px;
-    margin-top: 23px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-right: 80px;
+  margin-top: 23px;
 }
 
 .form-check input {
-
-    width: 302px;
-    height: 60px;
-    flex-shrink: 0;
+  width: 302px;
+  height: 60px;
+  flex-shrink: 0;
 }
 
-.gpstitle.second{
+.gpstitle.second {
+  display: none;
+}
+
+@media screen and (min-width: 769px) {
+  .navbar-nav {
+    display: flex;
+    flex-direction: row !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-left .nav-menu {
     display: none;
+  }
+
+  .nav-menu.show-bar .nav-item a {
+    font-size: 1.25rem;
+    padding-bottom: 0;
+    background-color: transparent;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Menambahkan transition untuk warna teks */
+  }
+
+  .nav-menu.show-bar .nav-item a:hover {
+    background-color: #8771ff;
+    color: #fff;
+  }
+
+  .nav-left .nav-menu.show-bar {
+    display: flex;
+    position: absolute;
+    left: -100rem;
+    top: 4rem; /* Adjust the top position as needed */
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: left 0.3s ease; /* Use left property for animation */
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    margin: 0;
+  }
+
+  .nav-left .nav-menu.show-bar.active {
+    left: 0;
+  }
+
+  .nav-left .nav-menu.show-bar .navbar-nav {
+    flex-direction: column;
+  }
+
+  .nav-right {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
 }
-
-
-
-
-
 
 @media (min-width: 420px) and (max-width: 767px) {
-    .hero_section {
-        display: flex;
-        /* margin-bottom: 200px; */
-        flex-direction: column;
-        margin-left: 120px;
-    }
+  .hero_section {
+    display: flex;
+    /* margin-bottom: 200px; */
+    flex-direction: column;
+    margin-left: 120px;
+  }
 
-    .gpstitle {
-        /* flex-direction: column; */
-        width: 425px;
-        height: 149.688px;
-        flex-shrink: 0;
-        color: #000;
-        font-family: Montserrat;
-        font-size: 40px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-        justify-content: center;
-        align-items: center;
-        flex-shrink: 0;
-        margin-left: 0;
-        text-align: center;
-        margin-left: 20px;
-        margin-bottom: 100px;
-    }
+  .gpstitle {
+    /* flex-direction: column; */
+    width: 420px;
+    height: 149.688px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    margin-left: 0;
+    text-align: center;
+    margin-left: 20px;
+    margin-bottom: 100px;
+  }
 
-    .gpstitle p {
-        /* margin-top: 100px; */
-        width: 450px;
-        height: 48.062px;
-        flex-shrink: 0;
-        margin-top: 10px;
-        font-size: 20px;
-        text-align: center;
-        /* padding-left: 50px; */
-        /* margin-left: 0px; */
-        /* margin-right: 100px; */
-    }
+  .gpstitle p {
+    /* margin-top: 100px; */
+    width: 450px;
+    height: 48.062px;
+    flex-shrink: 0;
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    /* padding-left: 50px; */
+    /* margin-left: 0px; */
+    /* margin-right: 100px; */
+  }
 
-    .fa-location-dot {
-        font-size: 41px;
-    }
+  .fa-location-dot {
+    font-size: 41px;
+  }
 
-    .gps img {
-        width: 456px;
-        height: 300.822px;
-        flex-shrink: 0;
-    }
+  .gps img {
+    width: 456px;
+    height: 300.822px;
+    flex-shrink: 0;
+  }
 
-    .form-check .form-check-input {
-        width: 100px;
-        height: 25.688px;
-        flex-shrink: 0;
-        margin-left: 50px;
-        /* text-align: center; */
-    }
+  .form-check .form-check-input {
+    width: 100px;
+    height: 25.688px;
+    flex-shrink: 0;
+    margin-left: 50px;
+    /* text-align: center; */
+  }
 
-    .footerText p{
-        margin-left:50px ;
-        margin-right: 50px;
-    }
+  .footerText p {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
 
-    .footer {
-        width: 100vh;
-        height: 100vw;
-    }
+  .footer {
+    width: 100vh;
+    height: 100vw;
+  }
 
-    nav{
-        width: 100%
-    }
+  nav {
+    width: 100%;
+  }
 
-    .gpstitle{
-        display: none;
-    }
+  .gpstitle {
+    display: none;
+  }
 
-    .gpstitle.second{
-        display: unset;
-    }
+  .gpstitle.second {
+    display: unset;
+  }
 }
-
 
 @media (min-width: 768px) and (max-width: 1024px) {
-    .hero_section {
-        display: flex;
-        /* margin-bottom: 200px; */
-        flex-direction: column;
-        align-items: center;
-        margin-left: 0;
-    }
+  .hero_section {
+    display: flex;
+    /* margin-bottom: 200px; */
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+  }
 
-    .gpstitle {
-        /* flex-direction: column; */
-        width: 425px;
-        height: 149.688px;
-        flex-shrink: 0;
-        color: #000;
-        font-family: Montserrat;
-        font-size: 40px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-        justify-content: center;
-        align-items: center;
-        flex-shrink: 0;
-        margin-left: 0;
-        text-align: center;
-        margin-left: 15%;
-        margin-bottom: 100px;
-    }
+  .gpstitle {
+    /* flex-direction: column; */
+    width: 425px;
+    height: 149.688px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    margin-left: 0;
+    text-align: center;
+    margin-left: 15%;
+    margin-bottom: 100px;
+  }
 
-    .gpstitle p {
-        /* margin-top: 100px; */
-        width: 450px;
-        height: 48.062px;
-        flex-shrink: 0;
-        margin-top: 10px;
-        font-size: 20px;
-        text-align: center;
-        /* padding-left: 50px; */
-        /* margin-left: 0px; */
-        /* margin-right: 100px; */
-    }
+  .gpstitle p {
+    /* margin-top: 100px; */
+    width: 450px;
+    height: 48.062px;
+    flex-shrink: 0;
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    /* padding-left: 50px; */
+    /* margin-left: 0px; */
+    /* margin-right: 100px; */
+  }
 
-    .fa-location-dot {
-        font-size: 41px;
-    }
+  .fa-location-dot {
+    font-size: 41px;
+  }
 
-    .gps img {
-        width: 456px;
-        height: 300.822px;
-        flex-shrink: 0;
-        margin-left: 10%;
+  .gps img {
+    width: 456px;
+    height: 300.822px;
+    flex-shrink: 0;
+    margin-left: 10%;
+  }
 
-    }
+  .form-check .form-check-input {
+    width: 100px;
+    height: 25.688px;
+    flex-shrink: 0;
+    margin-left: 50px;
+    /* text-align: center; */
+  }
 
-    .form-check .form-check-input {
-        width: 100px;
-        height: 25.688px;
-        flex-shrink: 0;
-        margin-left: 50px;
-        /* text-align: center; */
-    }
+  .footerText p {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
 
-    .footerText p{
-        margin-left:50px ;
-        margin-right: 50px;
-    }
+  .gpstitle {
+    display: none;
+  }
 
-    .gpstitle{
-        display: none;
-    }
-
-    .gpstitle.second{
-        display: unset;
-    }
-
-   
+  .gpstitle.second {
+    display: unset;
+  }
 }
 
+@media screen and (max-width: 426px) {
+  .footerText p {
+    font-size: 1rem;
+  }
+  .fa-brands {
+    font-size: 1.5rem;
+  }
+  .copyright {
+    font-size: 1rem;
+  }
+  .fa-copyright {
+    font-size: 1rem;
+  }
+}
 
 /* @media (min-width: 901px) and (max-width: 1024px){
 
