@@ -171,9 +171,16 @@ body {
     flex-shrink: 0;
 }
 
+.gpstitle.second{
+    display: none;
+}
 
 
-@media (min-width: 320px) and (max-width: 767px) {
+
+
+
+
+@media (min-width: 420px) and (max-width: 767px) {
     .hero_section {
         display: flex;
         /* margin-bottom: 200px; */
@@ -232,9 +239,107 @@ body {
         /* text-align: center; */
     }
 
+    .footerText p{
+        margin-left:50px ;
+        margin-right: 50px;
+    }
+
     .footer {
         width: 100vh;
         height: 100vw;
     }
 
+    nav{
+        width: 100%
+    }
+
+    .gpstitle{
+        display: none;
+    }
+
+    .gpstitle.second{
+        display: unset;
+    }
 }
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .hero_section {
+        display: flex;
+        /* margin-bottom: 200px; */
+        flex-direction: column;
+        
+    }
+
+    .gpstitle {
+        /* flex-direction: column; */
+        width: 425px;
+        height: 149.688px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: Montserrat;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        margin-left: 0;
+        text-align: center;
+        margin-left: 15%;
+        margin-bottom: 100px;
+    }
+
+    .gpstitle p {
+        /* margin-top: 100px; */
+        width: 450px;
+        height: 48.062px;
+        flex-shrink: 0;
+        margin-top: 10px;
+        font-size: 20px;
+        text-align: center;
+        /* padding-left: 50px; */
+        /* margin-left: 0px; */
+        /* margin-right: 100px; */
+    }
+
+    .fa-location-dot {
+        font-size: 41px;
+    }
+
+    .gps img {
+        width: 456px;
+        height: 300.822px;
+        flex-shrink: 0;
+        margin-left: 10%;
+
+    }
+
+    .form-check .form-check-input {
+        width: 100px;
+        height: 25.688px;
+        flex-shrink: 0;
+        margin-left: 50px;
+        /* text-align: center; */
+    }
+
+    .footerText p{
+        margin-left:50px ;
+        margin-right: 50px;
+    }
+
+    .gpstitle{
+        display: none;
+    }
+
+    .gpstitle.second{
+        display: unset;
+    }
+
+   
+}
+
+/* @media (min-width: 901px) and (max-width: 1024px){
+
+} */
