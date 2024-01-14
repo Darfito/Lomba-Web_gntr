@@ -1,5 +1,6 @@
 body {
-  /* background-color: black; */
+  margin: 0;
+  padding: 0;
   height: 100%;
 }
 .nav-link {
@@ -387,3 +388,153 @@ iframe {
 .btn1:hover ~ .btn2, .btn2:hover ~ .btn1 {
   color: red;
 } */
+
+@media screen and (max-width: 1024px) {
+  .mosque {
+    max-height: 450px;
+    max-width: 450px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mosque {
+    max-height: 300px;
+    max-width: 300px;
+  }
+
+  .konten-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .right-konten .title h1 {
+    display: none;
+  }
+  .top-konten .title {
+    display: unset;
+    text-align: center;
+  }
+  .googleMap {
+    width: 100%;
+  }
+  .right-konten {
+    display: flex;
+    width: 60%;
+    min-height: 400px;
+    /* border: 1px solid green; */
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .maps {
+    max-width: 418px;
+    min-height: 450px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 0 1rem;
+  }
+
+  iframe {
+    max-width: 418px;
+    min-height: 450px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+
+  .box-note{
+    background-size: 205px 240px
+  }
+  .box-text{
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .left-konten{
+    display: none;
+  }
+  .mosque{
+    display: none;
+  }
+
+  .konten-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .right-konten .title h1 {
+    display: none;
+  }
+  .top-konten .title {
+    display: unset;
+    text-align: center;
+  }
+  .googleMap {
+    width: 100%;
+  }
+  .right-konten {
+    display: flex;
+    width: 100%;
+    min-height: 400px;
+    /* border: 1px solid green; */
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .maps {
+    max-width: 418px;
+    min-height: 450px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 0 1rem;
+  }
+
+  iframe {
+    max-width: 418px;
+    min-height: 450px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+
+  .box-note{
+   display: none;
+  }
+  .box-text{
+    display: none;
+  }
+
+  .pagination{
+    padding: 0;
+  }
+  .pagination ul {
+    margin: 0;
+  }
+
+  .footerText p {
+    font-size: 1rem;
+  }
+  .fa-brands{
+    font-size: 1.5rem;
+  }
+  .copyright{
+    font-size: 1rem;
+  }
+  .fa-copyright{
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .title h1 {
+    font-size: 1.5rem;
+  }
+ .pagination ul li{
+  margin: 0;
+ }
+}
